@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styling.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    .dot{
+	 border-style: inset;
+	 border-width: 1px;
+	width: 1000px;
+}
+    #info {
+    	  	border-style: solid;
+  margin-bottom: 5px;
+  margin-top: 35px;
+  height: 360px;
+  font-size: 20px;
+    }
+    .col-sm-3{
+    	  	border-style: solid;
+  border-color: solid blue;
+  height: 620px;
+    }
+    .col-sm-4{
+    	border-style: solid;
+    	 height: 225px;
+  overflow: scroll;
+  border-color: solid blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 280px;
+
+   font-size: 17px;
+    }
+    #img{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+    body {
+  background-color: Beige;
+  	border-style: solid;
+  border-color: solid blue;
+  margin-right: 5px;
+  margin-left: 5px;
+}   
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+    .con {
+  position: relative;
+  color: red;
+   font-size: 15px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+}
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3">
+    	<div id="one">
+    	<img id = "img" src="file:///C:/Users/Zone/Desktop/Web_Programming/module6/assignment1/WPExam/Images/girl.jpg" alt="Avatar" align="center" width="200px" height="200px">
+    </div>
+    	<p>
+    		
+    	</p>
+    	<div id="info">
+    		<div>
+    	<h2 align="center"><b><font color="Brown">Things to know about me</font></b></h2>
+    	
+    	<ul>
+  <li><b>Name:</b> Krishnaja Makineni</li>
+ <li><b>Rollnumber:</b> 20186028</li>
+  <li><b>Mentor:</b> Chaitanya</li>
+  <li><b>Course:</b> Web designing</li>
+  <li><b>Collegename</b>: IIIT Hyderabad</li>
+</ul>
+    </div>
+    </div>
+    </div>
+    <br>
+    
+    <div class="col-sm-9">
+     <div>
+     	<center><font size= "7" color="Brown">My Journey So Far... </font></center>
+     </div>
+<hr class="dot"/>
+      <div class="row">
+        <div class="col-sm-4">
+        	<div class="con">
+          	<img src="file:///C:/Users/Zone/Desktop/Web_Programming/module6/assignment1/WPExam/Images/cspp.jpg" width="242px"  height="100px">
+          	<div class="bottom-right"><b>Cspp</b></div>
+          </div>
+          		<ul>
+  <li>I enjoyed the course as it had many new things</li>
+ <li>Time might be given more</li>
+  <li>Nice course</li>
+</ul>
+        </div>
+        <div class="col-sm-4">
+          <div class="con">
+<img src="file:///C:/Users/Zone/Desktop/Web_Programming/module6/assignment1/WPExam/Images/dsa.png" width="242px" height="100px">
+          	<div class="bottom-right"><b>ADS</b></div>
+          </div>
+          		<ul>
+  <li>I enjoyed the course as it had many new things</li>
+ <li>Time might be given more</li>
+  <li>Nice course</li>
+</ul>
+        </div>
+        <div class="col-sm-4">
+        	<div class="con">
+            <img src="file:///C:/Users/Zone/Desktop/Web_Programming/module6/assignment1/WPExam/Images/dbms.png" width="242px" height="100px">
+          	<div class="bottom-right"><b>DBMS</b></div>
+          </div>
+          		<ul>
+  <li>I enjoyed the course as it had many new things</li>
+ <li>Time might be given more</li>
+  <li>Nice course</li>
+</ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+        	<div class="con">
+<img src="file:///C:/Users/Zone/Desktop/Web_Programming/module6/assignment1/WPExam/Images/ICS.jpg" width="242px" height="100px">
+          	<div class="bottom-right"><b>ICS</b></div>
+          </div>
+          		<ul>
+ <li>I enjoyed the course as it had many new things</li>
+ <li>Time might be given more</li>
+  <li>Nice course</li>
+</ul>
+  
+        </div>
+        <div class="col-sm-4">
+          <div class="con">
+<img src="file:///C:/Users/Zone/Desktop/Web_Programming/module6/assignment1/WPExam/Images/cnf.jpg" width="242px"  height="100px">
+          	<div class="bottom-right"><b>CNF</b></div>
+          </div>
+          		<ul>
+<li>I enjoyed the course as it had many new things</li>
+ <li>Time might be given more</li>
+  <li>Nice course</li>
+</ul>
+        </div>
+        <div class="col-sm-4">
+          <div class="con">
+<img src="file:///C:/Users/Zone/Desktop/Web_Programming/module6/assignment1/WPExam/Images/Cybersecurity.png" width="242px"  height="100px">
+          	<div class="bottom-right"><b>CS</b></div>
+          	</div>
+          		<ul>
+<li>I enjoyed the course as it had many new things</li>
+ <li>Time might be given more</li>
+  <li>Nice course</li>
+</ul>
+ 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
